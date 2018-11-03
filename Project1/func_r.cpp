@@ -9,14 +9,28 @@ float func1(float a, float b)
 	}
 	else cout << "Error" << endl;
 }
-
-float func2(float x, float y)
+float sum(float j)
 {
-	if ((5 * x + 1) != 0)
-		return ((exp(2) + (1 / pow(x, y))*cos(45)*x) / (5 * x + 1)) + sin(pow(x, 2) + y);
-	else cout << "Error" << endl;
+
+	int y = 0;
+	if (5 * j*j != 0)
+	{
+		for (int i = 1; i < 6; i++)
+		{
+			y = y + cos(i*j);
+		}
+	}
+
+
+	return (y + sqrt(j)) / (5 * j*j);
+
 }
-float func3(int a1, float a2)
+
+float rez(int a1, float a2)
 {
 	return ((a1*a1) - (4 * a2)) / (fabs(a2) - 24);
+}
+void print()
+{
+	cout << "Answer = ";
 }
