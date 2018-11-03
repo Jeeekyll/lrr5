@@ -8,6 +8,7 @@ int main()
 {
 	float  a, b, j, a2;
 	int a1;
+	print2();
 	cout << "Input a " << endl;
 	cin >> a;
 	cout << "Input b " << endl;
@@ -18,6 +19,7 @@ int main()
 	a2 = sum(j);
 	print();
 	cout << rez(a1, a2) << endl;
+	print2();
 	system("pause");
 	return 0;
 }

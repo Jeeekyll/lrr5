@@ -34,3 +34,7 @@ void print()
 {
 	cout << "Answer = ";
 }
+void print2()
+{
+	cout << "Hello";
+}
